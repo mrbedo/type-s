@@ -1,0 +1,38 @@
+CAR_LIST_DIRECTORY
+!!!!!!!!!!!!!!!!!!!WARNING!!!!!!!!!!!!!!!!!!
+--------------------------------------------
+Back-up this file before making any changes.
+--------------------------------------------
+!!!!!!!!!!!!!!!!!!!WARNING!!!!!!!!!!!!!!!!!!
+
+[TSI_LOCATIONS_VECTOR]	
+objectList=
+	models/cars/audis4/audis4.tsi
+
+#endVector
+	models/cars/JaguarXtype/jaguarxtype.tsi
+models/cars/Lancia/lancia.tsi
+	models/cars/m3gtr/m3gtr.tsi
+
+
+
+
+models/cars/hyundai/hyundai.tsi	
+
+
+	models/cars/volkswagenjettacoup/vwjettacoup.tsi
+	models/cars/vwbeetle/vwbeetle.tsi
+
+	models/cars/Lancia/lancia.tsi
+	models/cars/porsche55/porsche55.tsi
+
+
+			
+	models/cars/micromouse/micromouse.tsi
+	models/cars/Ferrari512S/ferrari512S.tsi
+	models/cars/porsche911turbo/porsche911turbo.tsi
+
+
+//------------------IMPORTANT--------------------------------
+contains the list of cars, DO NOT PUT EXTRA STRING DATA 
+between "carList=" and "#endVector"

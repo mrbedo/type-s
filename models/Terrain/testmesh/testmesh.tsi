@@ -1,0 +1,77 @@
+CITY_TSI
+!!!!!!!!!!!!!!!!!!!WARNING!!!!!!!!!!!!!!!!!!
+--------------------------------------------
+Back-up this file before making any changes.
+--------------------------------------------
+!!!!!!!!!!!!!!!!!!!WARNING!!!!!!!!!!!!!!!!!!
+
+[FILES]			
+objectName= City 		;specifies the file paths for the car components starting from the current directory
+texturePath=   models/terrain/testmesh/
+
+
+
+[ATTRIBUTES]
+skyDomeRotationSpeed=		;how_fast_is_the_change_from_day_to_night
+
+
+
+[PART_LIST]	
+partList=
+
+;0 models/terrain/testmesh/testmesh.3ds 
+
+
+#endVector
+
+
+[GEOMETRY]
+
+part0=
+  0.000	;earth_position
+  4.650			
+  0.000
+		;scale
+  1.000
+  1.000
+  1.000 	
+
+  0.000		;rotation
+  0.000
+  0.000
+
+  0             ;car_wheel
+  1		;static
+  0		;opaque
+  0		;non-reflective
+  1		;not_a_light
+
+  100		;damage_level
+  20		;weight_Kg
+  0.4		;drag_coefficient
+  0.9		;frictional_coeff
+#endVector
+
+
+[COLLISION_BOX]
+length=				;size of the collision box
+height=
+width=
+
+[CAMERA_POSITIONS]
+cam1x=	0.280			;inside the car
+cam1y=	1.500						
+cam1z= -1.000			
+				
+cam2x=	0.000			;hood view
+cam2y=	0.000						
+cam2z=	0.000							
+
+cam3x= -10.000			;outside 1
+cam3y=	3.000						
+cam3z=	0.000						
+
+cam4x= -18.000			;outside 2
+cam4y=	5.000						
+cam4z=	0.000						
+						

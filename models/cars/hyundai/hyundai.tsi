@@ -1,0 +1,184 @@
+HYUNDAI_EXCEL
+!!!!!!!!!!!!!!!!!!!WARNING!!!!!!!!!!!!!!!!!!
+--------------------------------------------
+Back-up this file before making any changes.
+--------------------------------------------
+!!!!!!!!!!!!!!!!!!!WARNING!!!!!!!!!!!!!!!!!!
+
+[FILES]
+objectName=    HyUUUUn-DAAAIIII   					;specifies the file paths for the car components starting from the current directory
+texturePath=   models/cars/sharedtextures/
+descriptionPic= core/default.bmp
+
+[PART_LIST]	
+partList=
+
+;0 models/cars/Porsche55/Porsche55_T.3ds	;four_tires
+;1 models/cars/Porsche55/Porsche55_T.3ds	;2
+;2 models/cars/Porsche55/Porsche55_T.3ds	;3
+;3 models/cars/Porsche55/Porsche55_T.3ds	;4
+;5 models/cars/hyundai/hyundai.3ds	;body
+
+
+#endVector
+
+
+[GEOMETRY]
+
+;---tire1-----------------------------------
+part0=
+  3.770		;front_left_tire_translation
+  0.000
+ -1.460
+		;scale
+  0.600
+  0.600
+  0.600
+
+  0.000		;rotation
+  0.000
+  0.000
+
+  1             ;car_wheel
+  1		;static
+  0		;opaque
+  0		;non-reflective
+  1		;not_a_light
+
+  100		;damage_level
+  20		;weight_Kg
+  0.4		;drag_coefficient
+  0.9		;frictional_coeff
+#endVector
+
+
+;---tire2-----------------------------------
+part1=
+  3.770		;front_right_tire_translation
+  0.000
+  1.460
+		;scale
+  0.600
+  0.600
+  0.600
+ 
+  0.000		;rotation
+  180.000
+  0.000
+
+  1             ;car_wheel
+  1		;static
+  0		;opaque
+  0		;non-reflective
+  1		;not_a_light
+
+  100		;damage_level
+  20		;weight_Kg
+  0.4		;drag_coefficient
+  0.9		;frictional_coeff
+#endVector
+
+
+;---tire3-----------------------------------
+part2=
+ -1.510		;rear_left_tire_translation
+  0.000
+ -1.460
+		;scale
+  0.600
+  0.600
+  0.600
+
+  0.000		;rotation
+  0.000
+  0.000
+
+  1             ;car_wheel
+  0		;static
+  0		;opaque
+  0		;non-reflective
+  1		;not_a_light
+
+  100		;damage_level
+  20		;weight_Kg
+  0.4		;drag_coefficient
+  0.9		;frictional_coeff
+#endVector
+
+;---tire4-----------------------------------
+part3=
+ -1.510		;rear_right_tire_translation
+  0.000
+  1.460
+		;scale
+  0.600
+  0.600
+  0.600
+
+  0.000		;rotation
+  180.000
+  0.000
+
+  1             ;car_wheel
+  0		;static
+  0		;opaque
+  0		;non-reflective
+  1		;not_a_light
+
+  100		;damage_level
+  20		;weight_Kg
+  0.4		;drag_coefficient
+  0.9		;frictional_coeff
+#endVector
+
+
+;---CarBody---------------------------
+part4=
+  1.280		;car_body_translation
+  1.050			
+  0.000
+
+  0.280		;car_body_scale
+  0.280			
+  0.280
+
+  0.000		;rotation
+  90.000
+  0.000
+
+  0		;body_panel
+  1		;static
+  0		;opaque
+  1		;reflective
+  1		;not_a_light
+
+  100		;damage_level
+  1400		;weight_Kg
+  0.4		;drag_coefficient
+  0.9		;frictional_coeff
+
+#endVector
+
+						
+[COLLISION_BOX]
+length=				;size of the collision box
+height=
+width=
+
+[CAMERA_POSITIONS]
+cam1x=	0.280			;inside the car
+cam1y=	1.500						
+cam1z= -1.000			
+				
+cam2x=	0.000			;hood view
+cam2y=	0.000						
+cam2z=	0.000							
+
+cam3x= -10.000			;outside 1
+cam3y=	3.000						
+cam3z=	0.000						
+
+cam4x= -18.000			;outside 2
+cam4y=	5.000						
+cam4z=	0.000						
+						

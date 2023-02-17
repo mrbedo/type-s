@@ -1,0 +1,218 @@
+JAGUAR_X_TYPE_TSI
+!!!!!!!!!!!!!!!!!!!WARNING!!!!!!!!!!!!!!!!!!
+--------------------------------------------
+Back-up this file before making any changes.
+--------------------------------------------
+!!!!!!!!!!!!!!!!!!!WARNING!!!!!!!!!!!!!!!!!!
+
+[FILES]
+objectName= Jaguar_X_Type		;specifies the file paths for the car components starting from the current directory
+descriptionPic= models/cars/jaguarxtype/jaguar.bmp
+texturePath=   models/cars/jaguarxtype/
+
+[PART_LIST]	
+partList=
+
+;0 models/cars/jaguarxtype/jagtire.3ds	;four_tires
+;1 models/cars/jaguarxtype/jagtire.3ds	;2
+;2 models/cars/jaguarxtype/jagtire.3ds	;3
+;3 models/cars/jaguarxtype/jagtire.3ds	;4
+;4 models/cars/jaguarxtype/jaguarxtype_SW.3ds	;steering_wheel
+;5 models/cars/jaguarxtype/jaguarxtype.3ds	;body
+
+
+#endVector
+
+
+[GEOMETRY]
+
+;---tire1-----------------------------------
+part0=
+  4.170		;front_left_tire_translation
+  0.000
+ -1.500
+		;scale
+  1.000
+  1.000
+  1.000 	
+
+  0.000		;rotation
+  0.000
+  0.000
+
+  1             ;car_wheel
+  1		;static
+  0		;opaque
+  0		;non-reflective
+  1		;not_a_light
+
+  100		;damage_level
+  20		;weight_Kg
+  0.4		;drag_coefficient
+  0.9		;frictional_coeff
+#endVector
+
+
+;---tire2-----------------------------------
+part1=
+  4.170		;front_right_tire_translation
+  0.000
+  1.500
+		;scale
+  1.000
+  1.000
+  1.000 
+
+  0.000		;rotation
+  180.000
+  0.000
+
+  1             ;car_wheel
+  1		;static
+  0		;opaque
+  0		;non-reflective
+  1		;not_a_light
+
+  100		;damage_level
+  20		;weight_Kg
+  0.4		;drag_coefficient
+  0.9		;frictional_coeff
+#endVector
+
+
+;---tire3-----------------------------------
+part2=
+ -1.360		;rear_left_tire_translation
+  0.000		
+ -1.500
+		;scale
+  1.000
+  1.000
+  1.000 
+
+  0.000		;rotation
+  0.000
+  0.000
+
+  1             ;car_wheel
+  0		;static
+  0		;opaque
+  0		;non-reflective
+  1		;not_a_light
+
+  100		;damage_level
+  20		;weight_Kg
+  0.4		;drag_coefficient
+  0.9		;frictional_coeff
+#endVector
+
+;---tire4-----------------------------------
+part3=
+ -1.360		;rear_right_tire_translation
+  0.000		
+  1.500
+		;scale
+  1.000
+  1.000
+  1.000 
+
+  0.000		;rotation
+  180.000
+  0.000
+
+  1             ;car_wheel
+  0		;static
+  0		;opaque
+  0		;non-reflective
+  1		;not_a_light
+
+  100		;damage_level
+  20		;weight_Kg
+  0.4		;drag_coefficient
+  0.9		;frictional_coeff
+#endVector
+
+
+
+;---SteeringWheel---------------------------
+part4=
+  2.750		;steering_wheel_translation
+  0.900
+ -0.900 
+		;scale
+  1.000
+  1.000
+  1.000 
+
+  0.000		;rotation
+  180.000
+  0.000
+
+  2             ;steering_wheel
+  1		;static
+  0		;opaque
+  0		;non-reflective
+  1		;not_a_light
+
+  100		;damage_level
+  1400		;weight_Kg
+  0.4		;drag_coefficient
+  0.9		;frictional_coeff
+#endVector
+
+;---CarBody---------------------------
+part5=
+  0.320		;car_body_translation
+  0.960			
+  0.000
+
+  0.780		;car_body_scale
+  0.780			
+  0.780
+
+  0.000		;rotation
+  0.000
+  0.000
+
+  0		;body_panel
+  1		;static
+  0		;opaque
+  1		;reflective
+  1		;not_a_light
+
+  100		;damage_level
+  1400		;weight_Kg
+  0.4		;drag_coefficient
+  0.9		;frictional_coeff
+
+#endVector
+
+[PHYSICS]
+startPosX= 0.000
+startPosY= 4.000
+startPosZ= 0.000
+torque= 100.000
+maxSteerAngle= 40.000
+S
+[COLLISION_BOX]
+length=	9.2			;size of the collision box
+height= 2.4
+width=  3.4
+
+[CAMERA_POSITIONS]
+cam1x=	0.280			;inside the car
+cam1y=	1.500						
+cam1z= -1.000			
+				
+cam2x=	0.000			;hood view
+cam2y=	0.000						
+cam2z=	0.000							
+
+cam3x= -10.000			;outside 1
+cam3y=	3.000						
+cam3z=	0.000						
+
+cam4x= -18.000			;outside 2
+cam4y=	5.000						
+cam4z=	0.000						
+						

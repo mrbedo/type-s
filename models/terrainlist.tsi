@@ -1,0 +1,30 @@
+Track_LIST_DIRECTORY
+
+!!!!!!!!!!!!!!!!!!!WARNING!!!!!!!!!!!!!!!!!!
+--------------------------------------------
+Back-up this file before making any changes.
+--------------------------------------------
+!!!!!!!!!!!!!!!!!!!WARNING!!!!!!!!!!!!!!!!!!
+
+
+
+[LOCATIONS_VECTOR]	
+objectList=
+models/Terrain/city/city.tsi	
+#endVector
+
+
+models/Terrain/garage/garage.tsi
+
+models/Terrain/testmesh/testmesh.tsi
+
+
+
+
+
+
+
+//----   IMPORTANT    --------------------------------
+
+contains the list of tracks, DO NOT PUT EXTRA STRING DATA 
+between "carList=" and "#endVector"

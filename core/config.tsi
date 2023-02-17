@@ -1,0 +1,16 @@
+;CONFIGURATION_TSI_FILE
+;---------------------------------------------
+;WARNING!  Back-up file before making changes
+;---------------------------------------------
+
+[SCREEN]	
+resolutionX= 1024
+resolutionY= 768
+colorDepth= 32
+
+
+
+
+
+
+
